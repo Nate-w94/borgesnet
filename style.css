@@ -1,0 +1,43 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background-color: #0a2540;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #eee;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #e6f0ff, #f9fbfc);
+}
+
+.console-box {
+  background: #1a1a1a;
+  color: #33ff99;
+  padding: 1rem;
+  margin: 2rem;
+  font-family: monospace;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0a2540;
+  color: white;
+}
