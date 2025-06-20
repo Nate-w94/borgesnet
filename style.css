@@ -28,48 +28,16 @@ body {
   font-weight: bold;
 }
 
-.hero-glitch {
+.hero-section {
   text-align: center;
-  padding: 5rem 2rem;
-  background: linear-gradient(to right, #e6f0ff, #f9fbfc);
+  padding: 2rem;
 }
 
-.hero-glitch h2 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-}
-
-.hero-glitch p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.hero-glitch button {
-  padding: 0.75rem 1.5rem;
-  background-color: #0074d9;
-  border: none;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.code-panels {
-  display: flex;
-  justify-content: center;
-  margin-top: 4rem;
-}
-
-.panel {
-  background-color: #ffffff;
-  border: 1px solid #c0d3e3;
-  padding: 1.5rem 2rem;
-  margin: 0 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  font-family: monospace;
-  font-size: 1.2rem;
-  color: #0a2540;
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 footer {
