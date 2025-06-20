@@ -10,34 +10,31 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eaf1f9;
+  background-color: #0a2540;
+  color: white;
   padding: 1rem 2rem;
-  border-bottom: 2px solid #cdd5e0;
-}
-
-.top-nav h1 {
-  margin: 0;
-  font-size: 1.8rem;
-  color: #0a2540;
 }
 
 .top-nav nav a {
-  margin-left: 2rem;
+  color: white;
+  margin-left: 1.5rem;
   text-decoration: none;
-  color: #0a2540;
   font-weight: bold;
 }
 
-.hero-section {
-  text-align: center;
-  padding: 2rem;
+.hero-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  min-height: 70vh;
 }
 
 .hero-image {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 footer {
